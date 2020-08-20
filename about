@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ <html>
+        <head>
+          <!-- hier zet je de code in de head tags -->
+        <title>Tulay about</title>
+        </head>
+        <body>
+          <!-- hier zet je de code in de body tags-->
+        <h1>About page</h1>
+        <hr></hr>
+        <img width="290" height="290"src="https://raw.githubusercontent.com/Tulay81/hello-world/master/images/tulay.png" alt= "ben ik">
+
+        <p>Zo als jullie al ondekt hebben over mij ben ik zeker een gamer <br>
+          Ik speel meer dan 20 jaar al verschilende soorten games na me werk of hobby.<br>
+          Het liefst speel ik games achter de PC, Maar achter een console is ook geen enkle probleem. <br>
+          Dan speel ik achter mijn Playstation. <br>
+          Ooit was ik begonnen op een oude atari en daar speelde ik Asteroid. <br>
+          later kwam de nintendo ness en ik stapte over naar de Sega van 32 bit naar de 64 bit.<br>
+          zo groeide ik door al de consoles heen en nu wacht ik op de nieuw game Cyberpunk.<br>
+          als je meer wilt weten over die game klik op de link hieronder.</p>
+
+        <a href="https://www.cyberpunk.net/nl/en/"><h2>Voor meer info over Cyberpunk</h2></a>
+        <a href="Index.html"><h2>Back</h2></a>
+
+    </body>
+ </html>
