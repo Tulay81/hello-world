@@ -75,7 +75,7 @@ a:link {
       a:active {
         color: #9370DB;
 }
-.container{
+.container {
         width:  52%;
         margin: left;
 }
@@ -83,26 +83,33 @@ a:link {
         background-color: #e0dfdff4;
         
 }
+.container2 {
+        width:  99%;
+        margin: left;
+}
+.box-2 {
+        background-color: rgb(61, 61, 61);
+}
 ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: rgb(61, 61, 61);
+        
 }
 
 li {
         float: left;
       }
+       
       
-      li a {
+li a {
         display: block;
-      
         text-align: center;
         padding: 1px 15px;
         text-decoration: none;
       }
-      
-      li a:hover:not(.active) {
+li a:hover:not(.active) {
         background-color: rgb(46, 45, 45);
       }
+      
