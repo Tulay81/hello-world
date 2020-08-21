@@ -2,22 +2,31 @@ body {
                 color: #555555;
                 background-color: #f4f4f4f4;
                 font-family: Verdana, Geneva, sans-serif;
-                font-size: 14px;               
+                font-size: 14px;   
+                position: left;             
 } 
 
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
 h1 { 
                font-variant: small-caps;
                font-size: 40px;
+               text-align: center;
 }
 
 h3 { 
         font-variant: small-caps;
         font-size: 22px;
+        text-align: center;
 }
 
 h2 { 
         font-variant: small-caps;
         font-size: 22px;
+        text-align: center;
 }
 
 .list1 {font-family: Verdana, Geneva, sans-serif;
@@ -31,6 +40,8 @@ h2 {
         border-width: 4px;
         width: 275px;
         height: 75px;
+        margin-left: auto;
+        margin-right: auto;
 
 }
 .list2 {font-family: Verdana, Geneva, sans-serif;
@@ -44,14 +55,16 @@ h2 {
         border-width: 4px;
         width: 100px;
         height: 75px;
+        margin-left: auto;
+        margin-right: auto;
 
 }
 hr {
         border-style: solid;
         border-color: #e7e7e7;
         border-width: 3px;
-        width: 1000px;
-        position: absolute;
+        width: 1300px;
+        position: center;
         left: 3px; 
         margin: auto;   
 }
@@ -76,19 +89,46 @@ a:link {
         color: #9370DB;
 }
 .container {
-        width:  52%;
-        margin: left;
+        width:  50%;
+        margin: center;
+       
+       
 }
 .box-1 {
         background-color: #e0dfdff4;
-        
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 700px;
+        margin-left: 700px;
+        padding: 20px;
+              
 }
 .container2 {
         width:  99%;
-        margin: left;
+
+       
 }
 .box-2 {
+        box-sizing: border-box;
         background-color: rgb(61, 61, 61);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 280px;
+        margin-left: 300px;
+        padding: 1px;
+       
+}
+
+.box-3 {
+        background-color: #f4f4f4f4;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-right: 700px;
+        margin-left: 700px;
+        padding: 20px;
+
+              
 }
 ul {
         list-style-type: none;
@@ -105,11 +145,16 @@ li {
       
 li a {
         display: block;
-        text-align: center;
+        text-align: left;
         padding: 1px 15px;
         text-decoration: none;
       }
 li a:hover:not(.active) {
         background-color: rgb(46, 45, 45);
+        margin-left: auto;
+        margin-right: auto;
+
       }
-      
+footer {
+        text-align: center;
+}
