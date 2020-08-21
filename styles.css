@@ -1,6 +1,6 @@
 body { 
                 color: #555555;
-                background-color: ##f4f4f4f4;
+                background-color: #f4f4f4f4;
                 font-family: Verdana, Geneva, sans-serif;
                 font-size: 14px;               
 } 
@@ -19,20 +19,30 @@ h2 {
         font-variant: small-caps;
         font-size: 22px;
 }
- 
- 
-nav {
-        font-variant: small-caps;
-        font-size: 15px;
-         
 
-}
-
-.border {
+.list1 {font-family: Verdana, Geneva, sans-serif;
+        font-size: 14px; 
+        text-align: left;
+        list-style-type: none;
+        margin: 4px;
+        padding: 15px;
         border-style: solid;
         border-color: #e7e7e7;
         border-width: 4px;
-        width: 270px;
+        width: 275px;
+        height: 75px;
+
+}
+.list2 {font-family: Verdana, Geneva, sans-serif;
+        font-size: 14px; 
+        text-align: left;
+        list-style-type: none;
+        margin: 4px;
+        padding: 15px;
+        border-style: solid;
+        border-color: #e7e7e7;
+        border-width: 4px;
+        width: 100px;
         height: 75px;
 
 }
@@ -48,7 +58,7 @@ hr {
 
 /* unvisited link */
 a:link {
-        color: red;
+        color: #A9A9A9;
       }
       
       /* visited link */
@@ -64,3 +74,35 @@ a:link {
       /* selected link */
       a:active {
         color: #9370DB;
+}
+.container{
+        width:  52%;
+        margin: left;
+}
+.box-1 {
+        background-color: #e0dfdff4;
+        
+}
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 61, 61);
+}
+
+li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+      
+        text-align: center;
+        padding: 1px 15px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: rgb(46, 45, 45);
+      }
