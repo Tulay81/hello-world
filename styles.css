@@ -1,17 +1,66 @@
-* {
-  margin:0px;
-  padding:0px;
+body { 
+                color: #555555;
+                background-color: ##f4f4f4f4;
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 14px;               
+} 
+
+h1 { 
+               font-variant: small-caps;
+               font-size: 40px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+h3 { 
+        font-variant: small-caps;
+        font-size: 22px;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h2 { 
+        font-variant: small-caps;
+        font-size: 22px;
 }
+ 
+ 
+nav {
+        font-variant: small-caps;
+        font-size: 15px;
+         
+
+}
+
+ol {
+        border-style: solid;
+        border-color: #e7e7e7;
+        border-width: 3px;
+        width: 270px;
+        height: 75px;
+
+}
+hr {
+        border-style: solid;
+        border-color: #e7e7e7;
+        border-width: 3px;
+        width: 1000px;
+        position: absolute;
+        left: 3px; 
+        margin: auto;   
+}
+
+/* unvisited link */
+a:link {
+        color: red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: #A9A9A9;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: #8A2BE2;
+      }
+      
+      /* selected link */
+      a:active {
+        color: #9370DB;
