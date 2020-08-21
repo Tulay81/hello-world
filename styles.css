@@ -28,10 +28,10 @@ nav {
 
 }
 
-ol {
+.border {
         border-style: solid;
         border-color: #e7e7e7;
-        border-width: 3px;
+        border-width: 4px;
         width: 270px;
         height: 75px;
 
