@@ -162,24 +162,6 @@ footer {
 
 /* media queries */
 
-@media (max-with: 600px){
-        p{ 
-                font-size: 1.25rem;
-        }
-}
-
-@media (max-with: 800px){
-        p{ 
-                font-size: 1.5rem;
-                line-height: 1.5;
-        }
-}
-
-@media screen and (max-with: 800px){
-        #featured image{ 
-                width: 36%;
-                }
-}
                                                                                                                                                                                                                                                                                  
 @media (min-width: 768px) {                                                          
         h1 {                                                                             
@@ -192,6 +174,9 @@ footer {
             font-size: 50px;                                                             
         }                                                                                
     }    
+                                
+                                                                                   
+      
          
                                 
                                                                                    
