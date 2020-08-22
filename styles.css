@@ -173,9 +173,3 @@ footer {
                 width: 36%;
                 }
 }
-
-@media (max-with: 800px){
-        hr{ 
-                width: 36%;
-        }
-}
