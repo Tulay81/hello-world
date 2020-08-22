@@ -70,7 +70,8 @@ hr {
         width: 1300px;
         position: center;
         left: 3px; 
-        margin: auto;   
+        margin-left: auto;
+        margin-right: auto;
 }
 
 /* unvisited link */
@@ -172,7 +173,9 @@ footer {
                 width: 36%;
                 }
 }
-      }
-footer {
-        text-align: center;
+
+@media (max-with: 800px){
+        hr{ 
+                width: 36%;
+        }
 }
